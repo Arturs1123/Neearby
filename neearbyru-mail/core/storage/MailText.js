@@ -5,9 +5,9 @@ class MailTextUser{
     //     return {
     //         from: 'Neearby <info@neearby.pro>',
     //         to: user.email,
-    //         subject: `Ваши данные для входа в сервис Neearby.com`,
+    //         subject: `Ваши данные для входа в сервис Neearby.pro`,
     //         html:
-    //             '<p><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="font-size:16px;">Спасибо, что выбрали наш сервис <strong><a href="https://neearby.com"><span style="color:#3498db;">Neearby.Com</span></a></strong><br />\n' +
+    //             '<p><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="font-size:16px;">Спасибо, что выбрали наш сервис <strong><a href="https://neearby.pro"><span style="color:#3498db;">Neearby.pro</span></a></strong><br />\n' +
     //             '<br />\n' +
     //             '<strong>Ваши данные для входа:</strong><br />\n' +
     //             'Email:' +
@@ -23,7 +23,7 @@ class MailTextUser{
         return {
             from: 'Neearby <info@neearby.pro>',
             to: email,
-            subject: `Восстановление пароля в сервисe Neearby.com`,
+            subject: `Восстановление пароля в сервисe Neearby.pro`,
             html:
                 '<p><span style="font-family:Tahoma,Geneva,sans-serif;">' +
                 `<span style="font-size:16px;font-family:Tahoma,Geneva,sans-serif;"> ${name} здравствуйте <strong><br/>` +
@@ -33,7 +33,7 @@ class MailTextUser{
                 `<p style="margin-bottom: 0;font-family:Tahoma,Geneva,sans-serif;font-size:16px;margin-top: 0">Логин: ${email} </p>` +
                 `<p style="margin-bottom: 0;font-family:Tahoma,Geneva,sans-serif;font-size:16px;margin-top: 0">Пароль: ${password} </p>\n` +
                 '<p style="margin-bottom: 0;font-family:Tahoma,Geneva,sans-serif;font-size:16px;">Есть вопросы? Обращайтесь - поможем!</p>'+
-                '<p style="margin-top: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;"><a href="mailto:support@neearby.com">support@neearby.com</a></p>'+
+                '<p style="margin-top: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;"><a href="mailto:support@neearby.pro">support@neearby.pro</a></p>'+
                 '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">P.S. Обязательно сохраните это письмо!</p>' +
                 '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;margin-top: 0">С уважением, команда Neearby </p>\n'+
                 '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;margin-top: 0"> Neearby — всегда рядом!</p>'
@@ -57,7 +57,7 @@ class MailTextUser{
                 `<p style="margin-top: 0;margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">Логин: ${email} </p>` +
                 `<p style="margin-top: 0;margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">Пароль: ${password} </p>\n` +
                 '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">Есть вопросы? Обращайтесь - поможем!</p>'+
-                '<p style="margin-bottom: 0;margin-top: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;"><a href="mailto:support@neearby.com">support@neearby.com</a></p>'+
+                '<p style="margin-bottom: 0;margin-top: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;"><a href="mailto:support@neearby.pro">support@neearby.pro</a></p>'+
                 '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">P.S. Обязательно сохраните это письмо!</p>' +
                 '<p style="margin-bottom: 0;margin-top: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">С уважением, команда Neearby </p>\n'+
                 '<p style="margin-bottom: 0;margin-top: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;"> Neearby — всегда рядом!</p>'
@@ -85,7 +85,7 @@ class MailTextUser{
                 `<p style="margin-top: 0;margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">Логин: ${email} </p>` +
                 `<p style="margin-top: 0;margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">Пароль: ${password} </p>\n` +
                 '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">Есть вопросы? Обращайтесь - поможем!</p>'+
-                '<p style="margin-bottom: 0;margin-top: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;"><a href="mailto:support@neearby.com">support@neearby.com</a></p>'+
+                '<p style="margin-bottom: 0;margin-top: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;"><a href="mailto:support@neearby.pro">support@neearby.pro</a></p>'+
                 '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">P.S. Обязательно сохраните это письмо!</p>' +
                 '<p style="margin-bottom: 0;margin-top: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">С уважением, команда Neearby </p>\n'+
                 '<p style="margin-bottom: 0;margin-top: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;"> Neearby — всегда рядом!</p>'
@@ -132,7 +132,7 @@ class MailTextUser{
                 '<br>' +
                 'С уважением, Neearby.<br>' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -167,7 +167,7 @@ class MailTextUser{
                 '<br>' +
                 'С уважением, Neearby.\n' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -210,7 +210,7 @@ class MailTextUser{
                 '<br>' +
                 'С уважением, Neearby.<br><br>' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -240,7 +240,7 @@ class MailTextUser{
                 '<br>' +
                 'С уважением, Neearby.\n' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -271,7 +271,7 @@ class MailTextUser{
                 'С уважением, Neearby.\n' +
                 '<br>' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -308,7 +308,7 @@ class MailTextUser{
                 '<br>' +
                 '<br>' +
                 'С уважением, Neearby.<br><br>' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -336,7 +336,7 @@ class MailTextUser{
                 '<br>' +
                 '<br>' +
                 'С уважением, Neearby.<br><br>' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -361,7 +361,7 @@ class MailTextUser{
                 '<br>' +
                 'С уважением, Neearby.\n' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -370,25 +370,25 @@ class MailTextUser{
             from: 'Neearby <info@neearby.pro>',
             to: buyer.email,
             subject:
-                'Было произведенно автоматическое списание за  подписку <Neearby.com>',
+                'Было произведенно автоматическое списание за  подписку <Neearby.pro>',
             html:
                 buyer.name +
                 ', здравствуйте!\n' +
                 '\n' +
                 '<br>' +
                 '<br>' +
-                'Было произведенно автоматическое списание за подписку на сервисе neearby.com' +
+                'Было произведенно автоматическое списание за подписку на сервисе neearby.pro' +
                 '\n' +
                 '<br>' +
                 '<br>' +
                 'Для отмены подписки перейдите на сайт сервиса, и в разделе Мои подписки отмените подписку \n' +
-                "Ссылка:   <a href='https://neearby.com'>Neearby.com</a>  \n" +
+                "Ссылка:   <a href='https://neearby.pro'>Neearby.pro</a>  \n" +
                 '\n' +
                 '<br>' +
                 '<br>' +
                 'С уважением, Neearby.\n' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -397,13 +397,13 @@ class MailTextUser{
             from: 'Neearby <info@neearby.pro>',
             to: data.creator.email,
             subject:
-                'Ваше объявление было удаленно <Neearby.com>',
+                'Ваше объявление было удаленно <Neearby.pro>',
             html:
                 data.creator.name +
                 ', здравствуйте!\n <br>' +
                 '\n' +
                 '<br>' +
-                `Выше объявление было удаленно на странице автора ${data.author.login} в сервисе neearby.com <br>` +
+                `Выше объявление было удаленно на странице автора ${data.author.login} в сервисе neearby.pro <br>` +
                 '\n' +
                 '\n' +
                 '<br>' +
@@ -414,7 +414,7 @@ class MailTextUser{
                 '<br>' +
                 'С уважением, Neearby <br>' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -423,7 +423,7 @@ class MailTextUser{
             from: 'Neearby <info@neearby.pro>',
             to: data.user.email,
             subject:
-                data.title + ' <Neearby.com>',
+                data.title + ' <Neearby.pro>',
             html:
                 data.author.name + ' ' + data.message+
                 '<br>' +
@@ -437,18 +437,18 @@ class MailTextUser{
             from: 'Neearby <info@neearby.pro>',
             to: author.email,
             subject:
-                'Ваш товар был удален администратором <Neearby.com>',
+                'Ваш товар был удален администратором <Neearby.pro>',
             html:
                 author.name +
                 ', здравствуйте!\n <br>' +
                 '\n' +
                 '<br>' +
-                `Выш товар ${target.title} был удален по причине ${message} в сервисе neearby.com <br>` +
+                `Выш товар ${target.title} был удален по причине ${message} в сервисе neearby.pro <br>` +
                 '<br>' +
                 '<br>' +
                 'С уважением, Neearby <br>' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -457,18 +457,18 @@ class MailTextUser{
             from: 'Neearby <info@neearby.pro>',
             to: author.email,
             subject:
-                'Ваша подписка была удалена администратором <Neearby.com>',
+                'Ваша подписка была удалена администратором <Neearby.pro>',
             html:
                 author.name +
                 ', здравствуйте!\n <br>' +
                 '\n' +
                 '<br>' +
-                `Выша подписка ${target.title} была удалена по причине ${message} в сервисе neearby.com <br>` +
+                `Выша подписка ${target.title} была удалена по причине ${message} в сервисе neearby.pro <br>` +
                 '<br>' +
                 '<br>' +
                 'С уважением, Neearby <br>' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -477,18 +477,18 @@ class MailTextUser{
             from: 'Neearby <info@neearby.pro>',
             to: author.email,
             subject:
-                'Ваш пост был удален администратором <Neearby.com>',
+                'Ваш пост был удален администратором <Neearby.pro>',
             html:
                 author.name +
                 ', здравствуйте!\n <br>' +
                 '\n' +
                 '<br>' +
-                `Выш пост ${target.title} был удален по причине ${message} в сервисе neearby.com <br>` +
+                `Выш пост ${target.title} был удален по причине ${message} в сервисе neearby.pro <br>` +
                 '<br>' +
                 '<br>' +
                 'С уважением, Neearby <br>' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -524,7 +524,7 @@ class MailTextAuthor {
                 'на свой баланс бонус и конечно же \n' +
                 'полную инструкцию заработка на Neeaby 2.0!</p>'+
                 '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">Есть вопросы? Обращайтесь - поможем!</p>'+
-                '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;margin-top: 0"><a href="mailto:support@neearby.com">support@neearby.com</a></p>'+
+                '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;margin-top: 0"><a href="mailto:support@neearby.pro">support@neearby.pro</a></p>'+
                 '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">P.S. Обязательно сохраните это письмо!</p>' +
                 '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;margin-top: 0">С уважением, команда Neearby </p>\n'+
                 '<p style="margin-bottom: 0;font-size:16px;font-family:Tahoma,Geneva,sans-serif;margin-top: 0"> Neearby — всегда рядом!</p>'
@@ -557,7 +557,7 @@ class MailTextAuthor {
                '<br>' +
                'С уважением, Neearby.<br>' +
                '\n' +
-               'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+               'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
        };
     }
 
@@ -583,7 +583,7 @@ class MailTextAuthor {
                 '<br>' +
                 '<br>' +
                 'С уважением, Neearby.<br><br>' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -613,7 +613,7 @@ class MailTextAuthor {
                 '<br>' +
                 'С уважением, Neearby.<br><br>' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -639,7 +639,7 @@ class MailTextAuthor {
                 '<br>' +
                 '<br>' +
                 'С уважением, Neearby.<br><br>' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -665,7 +665,7 @@ class MailTextAuthor {
                 '<br>' +
                 '<br>' +
                 'С уважением, Neearby.<br><br>' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -695,7 +695,7 @@ class MailTextAuthor {
                 '<br>' +
                 'С уважением, Neearby.<br><br>' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -723,7 +723,7 @@ class MailTextAuthor {
                 '<br>' +
                 'С уважением, Neearby.<br><br>' +
                 '\n' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -746,7 +746,7 @@ class MailTextAuthor {
                 '<br>' +
                 '<br>' +
                 'С уважением, Neearby.<br><br>' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -772,7 +772,7 @@ class MailTextAuthor {
                 '<br>' +
                 '<br>' +
                 'С уважением, Neearby.<br><br>' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         };
     }
 
@@ -790,7 +790,7 @@ class MailTextAuthor {
                 '<br>' +
                 '<br>' +
                 'С уважением, Neearby.<br><br>' +
-                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.com',
+                'По вопросам оплаты и техническим вопросам, можно обращаться на почту support@neearby.pro',
         }
     }
 }

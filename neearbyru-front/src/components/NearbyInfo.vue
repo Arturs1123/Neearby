@@ -2,22 +2,22 @@
     <div class="info">
         <div>
             Поддержка
-            <span class="bb_txt">Neearby.com:</span>
-            <span class="bb_txt" style="margin-left: 0.5rem;">support@neearby.com</span>
+            <span class="bb_txt">Neearby.pro:</span>
+            <span class="bb_txt" style="margin-left: 0.5rem;">support@neearby.pro</span>
         </div>
         <div class="">
             Владелец
-            <span class="bb_txt">Neearby.com</span>
+            <span class="bb_txt">Neearby.pro</span>
         </div>
-        <div class="">ИП: Яковлев Михаил Геннадьевич</div>
-        <div class="">ОГРНИН: 321602700021753</div>
-        <div class="">ИНН: 601500047894</div>
+        <div class="">ИП Мялкин Александр Сергеевич</div>
+        <!-- <div class="">ОГРНИН: 321602700021753</div> -->
+        <div class="">ИНН: 772409837853</div>
         <div class="">
             Документация:
             <span class="c_black">Пользовательское соглашение | Политика конфиденциальности |<br>
                 Соглашение с подпиской | Правила сервиса и рекуррентные платежи</span>
         </div>
-        <div class="">© <span class="bb_grey">Neearby.com</span> · 2021-2023</div>
+        <div class="">© <span class="bb_grey">Neearby.pro</span> · 2021-2023</div>
     </div>
 </template>
 <script>

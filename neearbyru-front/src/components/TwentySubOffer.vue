@@ -110,7 +110,7 @@
               </div>
             </div>
             <div class="user_sog">Нажимая на кнопку, Вы даёте согласие на<br>
-              <span>документацию Neearby.com</span>
+              <span>документацию Neearby.pro</span>
             </div>
           </div>
           <div class="oplata_offer prodamus" style="">
@@ -144,7 +144,7 @@
               </div>
             </div>
             <div class="user_sog">Нажимая на кнопку, Вы даёте согласие на<br>
-              <span>документацию Neearby.com</span>
+              <span>документацию Neearby.pro</span>
             </div>
           </div>
         </div>

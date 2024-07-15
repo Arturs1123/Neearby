@@ -9,11 +9,11 @@
         <img src="../../assets/cross.jpg" alt="">
         <div class="title">
           Вы подавали жалобу на спам аккаунта<br>
-          “https://alexhotpro.neearby.com”
+          “https://alexhotpro.neearby.pro”
         </div>
         <span class="sup_title" style="color: #7A7777; text-align: left">
                     Комментарий от модератора: “Данный аккаунт<br>
-                    “https://alexhotpro.neearby.com” не присылал Вам ссылки на мошеннические сайты.
+                    “https://alexhotpro.neearby.pro” не присылал Вам ссылки на мошеннические сайты.
                 </span>
         <div class="sup_title">
           С уважением, команда Neearby.<br>

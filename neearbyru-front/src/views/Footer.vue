@@ -3,12 +3,11 @@
     <div class="footer">
       <div class="brand">
         <div class="logo">
-          <img src="../assets/logo1.png" alt=""> <h3>Neearby.com</h3>
+          <img src="../assets/logo1.png" alt=""> <h3>Neearby.pro</h3>
         </div>
-        <p class="logo__title">© NEEARBY.COM • 2021-2023</p>
-        <p class="logo__title">ИП Яковлев Михаил Геннадьевич</p>
-        <p class="logo__title">ОГРНИП 321602700021753</p>
-        <p class="logo__title">ИНН 601500047894</p>
+        <p class="logo__title">© NEEARBY.PRO • 2021-2023</p>
+        <p class="logo__title">ИП Мялкин Александр Сергеевич</p>
+        <p class="logo__title">ИНН: 772409837853</p>
       </div>
       <div class="docs">
         <p style="color: black;">Документация</p>
@@ -20,14 +19,14 @@
       <div class="social">
         <div class="links">
         <p style="font-weight: 600;">Мы в социальных сетях: </p>
-          <img style="margin-left: 15px;" src="../assets/landing/telegram.svg" alt="">
-          <img style="margin-left: 10px;" src="../assets/landing/vk.svg" alt="">
+          <a href="https://t.me/alexhotpropartners"><img style="margin-left: 15px;" src="../assets/landing/telegram.svg" alt=""></a>
+          <a href="https://vk.com/alexhotpro"><img style="margin-left: 10px;" src="../assets/landing/vk.svg" alt=""></a>
           <img style="margin-left: 10px;" src="../assets/landing/youtube.svg" alt="">
         </div>
         <p style="margin-top: 10px; font-weight: 600;">Есть вопросы?</p>
         <p style="text-decoration: underline; font-weight: 600;">Обращайтесь  - поможем!</p>
-        <p style="margin-top: 5px; font-weight: 600;">support@neearby.com</p>
-        <p style="margin-top: 10px; font-weight: 600;">+7 911-384-16-83</p>
+        <p style="margin-top: 5px; font-weight: 600;">support@neearby.pro</p>
+        <p style="margin-top: 10px; font-weight: 600;">+7917 541 85 93</p>
         <p style="margin-top: 10px; ">Звоните с 12:00</p>
         <p>до 24:00 по МСК</p>
       </div>

@@ -4,7 +4,7 @@
     <a :href="`/`" class="logo">
       <img src="../assets/logo1.png" alt="">
       <h3>
-        Neearby.com
+        Neearby.Pro
       </h3>
     </a>
     <div class="menu-buttons" v-if="getAuthorizedStatus">
@@ -171,7 +171,7 @@ export default {
       console.log(document.cookie)
       decodeURIComponent(document.cookie)
       console.log(decodeURIComponent(document.cookie))
-      window.location.href = "http://neearby.ru";
+      window.location.href = "http://neearby.pro";
     },
     openAuthenticatedPage(){
       // window.location.href = "http://" + this.$store.getters.getSubdomain + ".localhost:8080/page";

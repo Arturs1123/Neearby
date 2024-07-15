@@ -56,7 +56,7 @@ const OrdersRouter = require('./routes/Orders');
 app.use('/api/order', OrdersRouter);
 
 app.get("/", (_req, res) => {
-    res.redirect("https://neearby.com");
+    res.redirect("https://neearby.pro");
 });
 
 

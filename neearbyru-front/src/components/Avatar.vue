@@ -32,7 +32,7 @@
       <img src="../assets/uiw_loading.png" alt="">
       <div>
         <p style="text-align: left; font-size: 18px; line-height: 25px; margin-top: 15px; color: gray;" class="text-modal">
-          В течений 5 минут мы проверим Вашу обложку, и если <br> она соответсвует правилам сервиса Neearby.com<br> мы ее опубликуем!
+          В течений 5 минут мы проверим Вашу обложку, и если <br> она соответсвует правилам сервиса Neearby.pro<br> мы ее опубликуем!
         </p>
       </div>
       <p style="margin-top: 0; margin-bottom: 10px" class="title">

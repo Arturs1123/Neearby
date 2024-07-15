@@ -35,7 +35,7 @@ const storageRounter = require('./routes/FileStorage');
 app.use('/api/storage', storageRounter);
 
 app.get("/", (_req, res) => {
-    res.redirect("https://neearby.com");
+    res.redirect("https://neearby.pro");
 });
 
 

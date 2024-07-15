@@ -15,7 +15,7 @@
         <div class="inputs">
           <TextInput ref="subdomain" v-mask="'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'" v-model="subdomain" placeholder="Введите на английском Ваш поддомен (Пример ivanivanov)"/>
           <div class="domain-name">
-            <p>neearby.com</p>
+            <p>neearby.pro</p>
           </div>
         </div>
         <p style="margin-left: 4px; text-align: left; font-size: 10px; margin-top: 5px; color: #818C99">(Поддомен должен быть от 10 до
@@ -86,7 +86,7 @@ export default {
 
 
      ApiWrapper.becomeAuthor({login: this.subdomain}).then( async response => {
-
+      
        this.setSubdomain(this.subdomain)
 
         if (this.subdomain) {

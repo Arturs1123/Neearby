@@ -3,7 +3,7 @@
     <div class="registration-confirmation-window">
       <a class="logo" href="/">
         <img src="../assets/logo1.png" alt="">
-        <h2>Neearby.com</h2>
+        <h2>Neearby.Pro</h2>
       </a>
 
       <div class="title">

@@ -873,11 +873,11 @@ console.log('regUser: ', data)
             payload: {
                 type: 'service',
                 from: {
-                    name: 'Neearby.com',
-                    link: 'http://neearby.ru'
+                    name: 'Neearby.pro',
+                    link: 'http://neearby.pro'
                 },
                 text: `${data.name}, поздравляем! Теперь вы сможете продавать товары и подписки`,
-                onShow: 'http://neearby.ru/messenger'
+                onShow: 'http://neearby.pro/messenger'
             }
         })
 
@@ -896,14 +896,14 @@ console.log('regUser: ', data)
                 'каталогом популярных товаров с правами-перепродажи и <br> \n' +
                 'начните зарабатывать на них. <br> \n' +
                 ' \n' +
-                'Войти в каталог товаров с правами-перепродажи >>>  <a style="color: blue" target="_blank" href="https://alexhotpro.neearby.com/catalog-of-goods-with-resale-rights">https://alexhotpro.neearby.com/catalog-of-goods-with-resale-rights</a> <br> \n' +
+                'Войти в каталог товаров с правами-перепродажи >>>  <a style="color: blue" target="_blank" href="https://alexhotpro.neearby.pro/catalog-of-goods-with-resale-rights">https://alexhotpro.neearby.pro/catalog-of-goods-with-resale-rights</a> <br> \n' +
                 ' \n' +
                 'Шаг 2. Ежемесячные платежи или ежемесячный доход на автомате.<br>  \n' +
                 'Не знаете какую подписку создать? Воспользуйтесь готовым <br> \n' +
                 'каталогом популярных подписок с правами-перепродажи и <br> \n' +
                 'начните зарабатывать на них. <br> \n' +
                 ' \n' +
-                'Войти в каталог подписок с правами-перепродажи >>> <a style="color: blue" target="_blank" href="https://alexhotpro.neearby.com/resell-rights-subscription-catalog">https://alexhotpro.neearby.com/resell-rights-subscription-catalog</a> \n' +
+                'Войти в каталог подписок с правами-перепродажи >>> <a style="color: blue" target="_blank" href="https://alexhotpro.neearby.pro/resell-rights-subscription-catalog">https://alexhotpro.neearby.pro/resell-rights-subscription-catalog</a> \n' +
                 ' <br> \n' +
                 'Эти 2 необходимых шага, которые Вам необходимо сделать <br> \n' +
                 'для того, чтобы Вы смогли получать деньги. <br> \n' +
@@ -917,7 +917,7 @@ console.log('regUser: ', data)
                 'на свой баланс 500 рублей и конечно же <br> \n' +
                 'полную инструкцию заработка на Neeaby 2.0! <br> \n' +
                 ' \n' +
-                'Есть вопросы? Обращайтесь - поможем!  support@neearby.com <br> \n' +
+                'Есть вопросы? Обращайтесь - поможем!  support@neearby.pro <br> \n' +
                 ' <br> \n' +
                 'P.S. Обязательно сохраните это письмо! <br> \n' +
                 ' <br> \n' +

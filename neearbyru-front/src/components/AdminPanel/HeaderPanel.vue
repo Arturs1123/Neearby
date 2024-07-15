@@ -4,7 +4,7 @@
       <a :href="`/`" class="logo">
         <img src="../../assets/logo1.png" alt="">
         <h3>
-          Neearby.com
+          Neearby.Pro
         </h3>
       </a>
       <div class="menu-buttons" v-if="getAuthorizedStatus">

@@ -3,7 +3,9 @@
     <Header/>
     <div className="first-block">
       <div className="left-labels">
-        <h2>Первая в мире социальная сеть с искусственным интеллектом по заработку в интернете запущена. </h2>
+        <h2>
+          Начни с сегодняшнего дня зарабатывать в автоматическом режиме благодаря автоматизации на NEEARBY.PRO 
+        </h2>
         <p>Моментально зарегистрируйтесь прямо сейчас!</p>
         <div className="authors">
           <div className="author-circle">
@@ -38,7 +40,7 @@
 
     <div className="how-it-works">
       <h1>Как работает сервис
-        <div id="orange-label" style="color: #FF431A">Neearby.com</div>
+        <div id="orange-label" style="color: #FF431A">Neearby.pro</div>
         ?
       </h1>
 
@@ -99,7 +101,7 @@
 
     <div className="advantages">
       <h1>Что умеет
-        <div id="orange-label" style="color: #FF431A">Neearby.com</div>
+        <div id="orange-label" style="color: #FF431A">Neearby.pro</div>
         ?
       </h1>
 
@@ -202,7 +204,7 @@
 
     <div className="best-authors">
       <h1>Лучшие авторы
-        <div id="orange-label" style="color: #FF431A">Neearby.com</div>
+        <div id="orange-label" style="color: #FF431A">Neearby.pro</div>
       </h1>
 
       <div className="gallery">
@@ -213,7 +215,7 @@
             </div>
 
             <div className="name">
-              <h2>Владелец Neearby.com</h2>
+              <h2>Владелец Neearby.pro</h2>
             </div>
             <div className="followers">
               2301 отслеживающих
@@ -234,7 +236,7 @@
             </div>
 
             <div className="name">
-              <h2>Владелец Neearby.com</h2>
+              <h2>Владелец Neearby.pro</h2>
             </div>
             <div className="followers">
               2301 отслеживающих
@@ -252,7 +254,7 @@
             </div>
 
             <div className="name">
-              <h2>Владелец Neearby.com</h2>
+              <h2>Владелец Neearby.pro</h2>
             </div>
             <div className="followers">
               2301 отслеживающих
@@ -270,7 +272,7 @@
             </div>
 
             <div className="name">
-              <h2>Владелец Neearby.com</h2>
+              <h2>Владелец Neearby.pro</h2>
             </div>
             <div className="followers">
               2301 отслеживающих
@@ -288,7 +290,7 @@
             </div>
 
             <div className="name">
-              <h2>Владелец Neearby.com</h2>
+              <h2>Владелец Neearby.pro</h2>
             </div>
             <div className="followers">
               2301 отслеживающих
@@ -306,7 +308,7 @@
             </div>
 
             <div className="name">
-              <h2>Владелец Neearby.com</h2>
+              <h2>Владелец Neearby.pro</h2>
             </div>
             <div className="followers">
               2301 отслеживающих
@@ -324,7 +326,7 @@
             </div>
 
             <div className="name">
-              <h2>Владелец Neearby.com</h2>
+              <h2>Владелец Neearby.pro</h2>
             </div>
             <div className="followers">
               2301 отслеживающих
@@ -342,7 +344,7 @@
             </div>
 
             <div className="name">
-              <h2>Владелец Neearby.com</h2>
+              <h2>Владелец Neearby.pro</h2>
             </div>
             <div className="followers">
               2301 отслеживающих
@@ -360,7 +362,7 @@
             </div>
 
             <div className="name">
-              <h2>Владелец Neearby.com</h2>
+              <h2>Владелец Neearby.pro</h2>
             </div>
             <div className="followers">
               2301 отслеживающих
@@ -378,7 +380,7 @@
             </div>
 
             <div className="name">
-              <h2>Владелец Neearby.com</h2>
+              <h2>Владелец Neearby.pro</h2>
             </div>
             <div className="followers">
               2301 отслеживающих
@@ -421,11 +423,11 @@
           </div>
           <div className="body">
             <div className="contact">По любым вопросам:
-              <div className="orange">support@neearby.com</div>
+              <div className="orange">support@neearby.pro</div>
             </div>
 
             <div className="contact">По срочным вопросам:
-              <div className="orange">+7 911-384-16-83</div>
+              <div className="orange">+7917 541 85 93</div>
             </div>
 
           </div>

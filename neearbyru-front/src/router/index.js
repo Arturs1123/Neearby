@@ -282,7 +282,7 @@ router.beforeEach(async (to, from, next) => {
 
 router.beforeEach( async (to, from, next) => {
 
-
+    
     if(location.pathname == '/choose-your-subdomain'){
         next();
         return;

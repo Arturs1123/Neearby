@@ -165,7 +165,7 @@ export default {
       contentNotification: {
         show: localStorage.getItem('welcome-notification') != 'true',
         title: 'Новое сообщение',
-        messageFrom: 'Neearby.com',
+        messageFrom: 'Neearby.pro',
         message: 'Алекс Жаркий, поздравляем! Теперь Вы сможете продав...',
         button: {
           label: 'Посмотреть',

@@ -81,7 +81,7 @@
 <!--            </div>-->
 <!--            <div class="comm_date">8 сентября в 23:12</div>-->
 <!--            <div class="comm_content">-->
-<!--              Моя ссылка на страничку Neearby <span style="color: #2A5885;">https://alexhotpro.neearby.com</span>-->
+<!--              Моя ссылка на страничку Neearby <span style="color: #2A5885;">https://alexhotpro.neearby.pro</span>-->
 <!--            </div>-->
 <!--            <div class="comm_like_res">-->
 <!--              <div class="comm_res">Ответить</div>-->

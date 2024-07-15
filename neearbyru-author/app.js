@@ -34,7 +34,7 @@ app.use('/api/post', require('./routes/Post'));
 app.use('/api/referral', require('./routes/Referral'));
 
 app.get("/", (_req, res) => {
-    res.redirect("https://neearby.com");
+    res.redirect("https://neearby.pro");
 });
 
 

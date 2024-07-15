@@ -9,11 +9,11 @@
 <!--                <img src="../../assets/succes_m.svg" alt="">-->
 <!--                <div class="title">-->
 <!--                    Вы подавали жалобу на спам аккаунта<br>-->
-<!--                    “https://alexhotpro.neearby.com”-->
+<!--                    “https://alexhotpro.neearby.pro”-->
 <!--                </div>-->
 <!--                <span class="sup_title" style="color: #7A7777; text-align: left">-->
 <!--                    Комментарий от модератора: “Мы видим, что человек<br>-->
-<!--                    “https://alexhotpro.neearby.com” Вам прислал ссылку на<br>-->
+<!--                    “https://alexhotpro.neearby.pro” Вам прислал ссылку на<br>-->
 <!--                    мошеннические сайты. Мы приняли меры к данному<br>-->
 <!--                    человеку и заблокировали его! Спасибо вам!”-->
 <!--                </span>-->

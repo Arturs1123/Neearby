@@ -1,4 +1,3 @@
-// tsconfig.json
 {
   "compilerOptions": {
     // это соответствует поддержке браузеров у Vue
