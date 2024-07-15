@@ -1,0 +1,44 @@
+input[type="file"],
+input[type="file"]:visited,
+input[type="file"]:hover,
+input[type="file"]:focus,
+input[type="file"]:active {
+  margin:0;
+  padding: 0 0;/* fallback: older browsers like IE 1-8 need "em" */
+  padding: 0 0;/* older browsers dont know what "rem" is */
+  overflow: hidden; /* long file names overflow so just hide the end */
+  background: #fff;
+  border-radius: .2em;
+  border-radius: .2rem;
+  outline: none;
+  border: 2px solid #bbb;
+  cursor: pointer;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+input[type="file"]:hover {
+  background: #f9f9ff; /* Optional rollover color: I am using a light blue to indicate an interaction */
+  border: 2px solid #999;
+}
+
+input[type="file"]:visited,
+input[type="file"]:focus,
+input[type="file"]:active {
+  background: #fff; /* Default back to white when focused. */
+  border: 2px solid #999;
+}
+
+p {
+  margin: 0;
+}
+h3{
+  margin: 0;
+}
+a {
+  all: unset;
+  cursor: pointer;
+}
+h4{
+  margin: 0;
+}

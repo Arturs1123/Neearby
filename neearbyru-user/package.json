@@ -1,0 +1,48 @@
+{
+  "name": "service-user",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "cross-env NODE_ENV=test node --no-warnings test/index.js"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "express-fileupload": "^1.4.0",
+    "express-form-data": "^2.0.22",
+    "file-system": "^2.2.2",
+    "glob": "^7.2.0",
+    "http-errors": "^1.6.3",
+    "http-errors-express": "^3.1.0",
+    "jade": "~1.11.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.2.0",
+    "knex-paginate": "^3.0.1",
+    "mocha": "^10.0.0",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "request-ip": "^3.3.0",
+    "sinon": "^14.0.0",
+    "socket.io": "^4.5.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}

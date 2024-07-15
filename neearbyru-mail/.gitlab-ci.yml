@@ -1,0 +1,35 @@
+stages:
+  - testing
+  - staging
+
+#При мерже в ветку dev или pre_master запускаются все тесты
+testing:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  stage: testing
+  image: node:16.14.2-alpine
+  script:
+    - npm i
+    - npm run test
+
+
+#При мерже в ветку dev разворачивание в DEV контуре
+deploy to dev:
+  stage: staging
+  image: docker:latest
+  script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - eval $(ssh-agent -s)
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    - echo "$DEV_SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - for IP in $DEV_IP_SERVERS; do
+    - ssh-keyscan $IP >> ~/.ssh/known_hosts
+    - echo "$DEV_SSH_PRIVATE_KEY" | ssh -i /dev/stdin $DEV_USER_SERVER@$IP "if [ ! -d "$DEV_DIRECTORY_APP" ]; then cd /home/neearby/ && git clone git@gitlab.com:Dark_Twister/service-mail.git && cd $DEV_DIRECTORY_APP && git checkout dev ; else cd $DEV_DIRECTORY_APP && git pull && git checkout dev; fi"
+    - scp -vv $CONFIG_LOCAL_DEV $DEV_USER_SERVER@$IP:$DEV_DIRECTORY_APP/secret/config.local.js
+    - echo "$DEV_SSH_PRIVATE_KEY" | ssh -i /dev/stdin $DEV_USER_SERVER@$IP "cd /home/neearby && docker-compose up -d --build"
+    - done
+  only:
+    - dev
+  when: on_success

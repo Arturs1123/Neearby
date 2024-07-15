@@ -1,0 +1,15 @@
+{
+    buyer: {
+        name: 'Ivan',
+        phone: '+79125555555',
+        email: 'ivan@gmail.com',
+    },
+    author: {
+        name: 'Константин',
+        login: 'Dark_twister',
+        email: 'dark_twister@gmail.com'
+    },
+    product: {
+        title: 'Подписка для богачей'
+    }
+}
