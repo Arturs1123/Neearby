@@ -20,7 +20,7 @@
         </div>
         <div class="buttons">
         <OrangeButton @click="redirect('https://t.me/neearbycom1_bot')" style="margin-top: 25px;" button-label="Хочу получить бонус от Neearby!"/>
-        <OrangeButton @click="redirect('http://neearby.ru/enter-your-personal-account')" style="margin-top: 10px;" button-label="Войти в свой личный кабинет Neearby!"/>
+        <OrangeButton @click="redirect('http://neearby.pro/enter-your-personal-account')" style="margin-top: 10px;" button-label="Войти в свой личный кабинет Neearby!"/>
         </div>
       </div>
     </div>

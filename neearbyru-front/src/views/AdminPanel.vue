@@ -35,7 +35,7 @@
                     <p class="" style="color: gray;margin-left: 95px;">{{ el.phone }}</p>
                     <p v-if="el.role === 1" class="" style="color: gray; margin-left: 30px">user</p>
                     <p v-else class="" style="color: gray;margin-left: 30px">author</p>
-                    <p class="" style="color: gray; margin-left: 30px;">{{ el.login }}<br>.neearby.ru</p>
+                    <p class="" style="color: gray; margin-left: 30px;">{{ el.login }}<br>.neearby.pro</p>
                     <div style="margin-left: 50px;" class="button__moderation">
                       <button @click="banUsers(el)" class="button__accept">Бан</button>
                     </div>

@@ -12,7 +12,7 @@
           Ваш поддомен на Neearby успешно зарегистрирован!
          </h3>
         <div class="inputs" style="margin-top: 30px; font-size: 20px;">
-          <p>Ваша личная страничка на Neearby: <a :href='getHomeLink()'>http://{{this.getSubdomain()}}.neearby.ru/</a></p>
+          <p>Ваша личная страничка на Neearby: <a :href='getHomeLink()'>http://{{this.getSubdomain()}}.neearby.pro/</a></p>
         </div>
         <div class="buttons">
           <OrangeButton button-label="Войти в свою страничку Neearby!" @click="goHome"/>
@@ -46,7 +46,7 @@ export default {
       // let domain = window.location.host
       // return window.location.href = "http://" + this.$store.getters.getAuthorizedProfile.login + '.' + domain + '/';
 
-      return `http://${this.getSubdomain()}.neearby.ru/`
+      return `http://${this.getSubdomain()}.neearby.pro/`
     },
 
     goHome() {

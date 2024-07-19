@@ -72,7 +72,7 @@ export default {
 
         if(response.success === true){
 
-          console.log(this.$cookies.set('token', response.data, '180d', '/', '.neearby.ru', false, ''));
+          console.log(this.$cookies.set('token', response.data, '180d', '/', '.neearby.pro', false, ''));
 
           console.log(document.cookie)
 

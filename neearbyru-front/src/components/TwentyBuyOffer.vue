@@ -212,12 +212,12 @@ export default {
 
     methods: {
       logout: function (){
-        console.log(this.$cookies.set('token', null,'180d', '/', '.neearby.ru', false, ''));
+        console.log(this.$cookies.set('token', null,'180d', '/', '.neearby.pro', false, ''));
         // console.log(this.$cookies.remove("token"))
         console.log(document.cookie)
         decodeURIComponent(document.cookie)
         console.log(decodeURIComponent(document.cookie))
-        window.location.href = "http://neearby.ru/49";
+        window.location.href = "http://neearby.pro/49";
       },
       close(){
         this.$emit('close');

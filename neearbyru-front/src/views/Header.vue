@@ -166,7 +166,7 @@ export default {
       window.location.href = '/products';
     },
     logout: function (){
-      console.log(this.$cookies.set('token', null,'180d', '/', '.neearby.ru', false, ''));
+      console.log(this.$cookies.set('token', null,'180d', '/', '.neearby.pro', false, ''));
       // console.log(this.$cookies.remove("token"))
       console.log(document.cookie)
       decodeURIComponent(document.cookie)
@@ -175,7 +175,7 @@ export default {
     },
     openAuthenticatedPage(){
       // window.location.href = "http://" + this.$store.getters.getSubdomain + ".localhost:8080/page";
-      // window.location.href = "http://" + this.$store.getters.getSubdomain + ".neearby.ru/page";
+      // window.location.href = "http://" + this.$store.getters.getSubdomain + ".neearby.pro/page";
       let domain = window.location.host
       window.location.href = "http://" + this.$store.getters.getAuthorizedProfile.login + '.' + domain + '/';
     },

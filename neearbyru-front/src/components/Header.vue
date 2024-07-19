@@ -166,12 +166,12 @@ export default {
       window.location.href = '/products';
     },
     logout: function (){
-      console.log(this.$cookies.set('token', null,'180d', '/', '.neearby.ru', false, ''));
+      console.log(this.$cookies.set('token', null,'180d', '/', '.neearby.pro', false, ''));
       // console.log(this.$cookies.remove("token"))
       console.log(document.cookie)
       decodeURIComponent(document.cookie)
       console.log(decodeURIComponent(document.cookie))
-      window.location.href = "http://neearby.ru";
+      window.location.href = "http://neearby.pro";
     },
     openAuthenticatedPage(){
       let domain = window.location.host

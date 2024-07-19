@@ -24,7 +24,7 @@ export default {
   name: "ModalLogout",
   methods: {
     logout: function (){
-      console.log(this.$cookies.set('token', null,'180d', '/', '.neearby.ru', false, ''));
+      console.log(this.$cookies.set('token', null,'180d', '/', '.neearby.pro', false, ''));
       // console.log(this.$cookies.remove("token"))
       console.log(document.cookie)
       decodeURIComponent(document.cookie)
