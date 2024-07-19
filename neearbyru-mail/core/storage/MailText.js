@@ -29,7 +29,7 @@ class MailTextUser{
                 `<span style="font-size:16px;font-family:Tahoma,Geneva,sans-serif;"> ${name} здравствуйте <strong><br/>` +
                 '<span style="font-weight: 100;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">На связи команда Neearby!</span></strong><br/> \n' +
                 '<p style="font-weight: 600;font-family:Tahoma,Geneva,sans-serif;font-size:16px;margin-bottom: 0">Ваши данные при входе в Neearby</p>\n' +
-                '<p style="margin-bottom: 0;font-family:Tahoma,Geneva,sans-serif;font-size:16px;margin-top: 0">Ссылка: http://neearby.ru</p>\n' +
+                '<p style="margin-bottom: 0;font-family:Tahoma,Geneva,sans-serif;font-size:16px;margin-top: 0">Ссылка: http://neearby.pro</p>\n' +
                 `<p style="margin-bottom: 0;font-family:Tahoma,Geneva,sans-serif;font-size:16px;margin-top: 0">Логин: ${email} </p>` +
                 `<p style="margin-bottom: 0;font-family:Tahoma,Geneva,sans-serif;font-size:16px;margin-top: 0">Пароль: ${password} </p>\n` +
                 '<p style="margin-bottom: 0;font-family:Tahoma,Geneva,sans-serif;font-size:16px;">Есть вопросы? Обращайтесь - поможем!</p>'+
@@ -75,7 +75,7 @@ class MailTextUser{
                 `<span style="font-size:16px;font-family:Tahoma,Geneva,sans-serif;"> ${name} здравствуйте <strong><br/>` +
                 '<span style="font-weight: 100;font-size:16px;font-family:Tahoma,Geneva,sans-serif;">На связи команда Neearby!</span></strong><br/> \n' +
                 `<p style="font-size:16px;font-family:Tahoma,Geneva,sans-serif;">
-                    <a href="http://neearby.ru/thank-you-for-registering">
+                    <a href="http://neearby.pro/thank-you-for-registering">
                         Кликните по этой ссылке сейчас и смотрите видео-урок >>>
                     </a>
                 </p>\n`+
